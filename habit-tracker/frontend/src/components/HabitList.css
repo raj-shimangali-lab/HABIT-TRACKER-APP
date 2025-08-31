@@ -1,0 +1,56 @@
+/* src/components/HabitList.css */
+
+ul {
+    list-style-type: none;
+    padding: 20px;
+    max-width: 500px;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  li:hover {
+    transform: translateY(-5px);
+  }
+  
+  li button {
+    background-color: #ff5722;
+    color: white;
+    padding: 8px 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  li button:hover {
+    background-color: #e64a19;
+  }
+  
+  li button.bg-yellow-500 {
+    background-color: #ffc107;
+  }
+  
+  li button.bg-yellow-500:hover {
+    background-color: #ff9800;
+  }
+  
+  li button.bg-green-500 {
+    background-color: #4caf50;
+  }
+  
+  li button.bg-green-500:hover {
+    background-color: #388e3c;
+  }
+  

@@ -1,0 +1,27 @@
+/* src/App.css */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f4f7fa;
+}
+
+.app-header {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.app-header h1 {
+  font-size: 3rem;
+  color: #4caf50;
+  margin-bottom: 20px;
+}
+
+.app-main {
+  width: 100%;
+  max-width: 900px;
+  padding: 20px;
+}
