@@ -117,11 +117,14 @@ npm install
 
 3. Run the App
 Start Backend:
+cd habit-tracker
 cd backend
 node server.js
 
 Start Frontend:
+cd habit-tracker
 cd frontend
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 npm run dev
 
 
